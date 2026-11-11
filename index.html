@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI-2 · Тренажёр по темам</title>
+  <meta name="description" content="Теория, задачи с решениями и проверочные тесты по курсу AI-2: MDP, Bayes, HMM, ML и Computer Vision.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0f17'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='26' font-weight='700' fill='%234cc9f0' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <a class="brand" href="#/">
+        <span class="brand-mark">AI</span>
+        <span class="brand-text">
+          <strong>AI-2</strong>
+          <small>тренажёр</small>
+        </span>
+      </a>
+
+      <div class="overall">
+        <div class="overall-top">
+          <span>Общий прогресс</span>
+          <b id="overallPct">0%</b>
+        </div>
+        <div class="meter"><span id="overallBar"></span></div>
+        <div class="overall-sub" id="overallSub">0 из 0 вопросов</div>
+      </div>
+
+      <nav class="nav" id="nav" aria-label="Темы курса"></nav>
+
+      <div class="sidebar-foot">
+        <button class="ghost-btn" id="themeToggle" type="button">
+          <span class="icon" id="themeIcon">◐</span>
+          <span id="themeLabel">Светлая тема</span>
+        </button>
+        <button class="ghost-btn" id="resetProgress" type="button">
+          <span class="icon">↺</span>
+          <span>Сбросить прогресс</span>
+        </button>
+        <p class="fine">Локальный тренажёр. Прогресс хранится в браузере и никуда не отправляется.</p>
+      </div>
+    </aside>
+
+    <main class="main" id="main" tabindex="-1"></main>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/topics/mdp.js"></script>
+  <script src="js/topics/bayes.js"></script>
+  <script src="js/topics/practice8.js"></script>
+  <script src="js/topics/assignment4.js"></script>
+  <script src="js/topics/lab7.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
