@@ -88,3 +88,8 @@ window.TOPICS.push({
 
 ---
 <div align="center">Made with ❤️ and Python</div>
+
+---
+
+**Build. Learn. Understand.**
+© Ералы Тлеуханов · [tleukhanov.me](https://tleukhanov.me)
